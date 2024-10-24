@@ -1,0 +1,86 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.logo-img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo-name{
+    padding-right: 20px;
+    font-size: 35px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+}
+.nav-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links a{
+    padding-right:20px;
+}
+.site-name {
+    color: #28a745; /* Green for sustainability and focus */
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.logo-name span.highlight {
+    color: #ffffff; /* Optional highlight if background is dark */
+}
+
+.nav-bar {
+    background-color: #1f2b5e;
+    padding: 10px 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.nav-links a:hover {
+    color: #6cdd87;
+}
+
+/*mode button css*/
+i{
+    font-size: 30px;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+
+
+/*hero section*/
+.hero-section{
+    background-image: url(/assets/heroImage.jpeg);
+}
