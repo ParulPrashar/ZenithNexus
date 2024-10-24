@@ -5,3 +5,7 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "phyton app.py"]
+
+[[ports]]
+localPort = 40345
+externalPort = 80
